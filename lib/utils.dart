@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 //const String url_api = "http://nabita.info/eduprog/crud/service.php";
-const String url_api = "http://10.14.52.46:8080/flutter_login/service.php";
+const String url_api = "http://10.14.76.132:8080/flutter_login/service.php";
 
 class UserData {
   static String userName;
