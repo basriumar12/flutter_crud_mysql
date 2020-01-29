@@ -111,7 +111,7 @@ class _LoginPageState extends State<LoginPage> {
                           Text("Loading...")
                         ],
                       ),) :
-                      Image.asset("assets/eduprog.png", fit: BoxFit.contain,),
+                      Image.asset("images/images.webp", fit: BoxFit.contain,),
                     ),
 
                     SizedBox(height: 32,),

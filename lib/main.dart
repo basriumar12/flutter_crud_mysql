@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Eduprog CRUD',
+      title: 'Flutter MYSQL CRUD',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (_) => LoginPage(title: 'Login Page'),
         '/crud': (_) {
-          return MyHomePage(title: 'Eduprog CRUD Demo');
+          return MyHomePage(title: 'Flutter MYSQL CRUD');
         }
       },
     );
